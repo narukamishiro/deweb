@@ -1,0 +1,5 @@
+li ~ li {background-color:black; color:white;}
+li + li { color:red; }
+#mor{color:yellow;}
+#titulo::first-letter{color: green;}
+li:nth-child(5){background-color: blue;}
