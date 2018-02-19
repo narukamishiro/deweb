@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$(function(){
+			$("#arra").draggable({
+				containment:"parent",
+				cursor: "crosshair",
+				delay:600,
+				grid: [50,50],
+				zIndex:100,
+				stack:"#arra"
+			});
+		});
+	</script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	
+    <title>ejercicio 1</title>
+  </head>
+  <body>
+	<div class="container">
+		<div id="arra" class="card" style="width: 18rem;">
+			<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Unclesamwantyou.jpg/205px-Unclesamwantyou.jpg">
+			<div class="card-body">
+				<h5 class="card-title">cabecera</h5>
+				<p>soy el tio mas soso del mundo</p>
+				<a href="#" class="btn btn-primary">pulsame </a>
+			</div>	
+		</div>
+		<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="https://www.kronosh2o.es/images/parallax/home/h2o-logo.png">
+			<div class="card-body">
+				<h5 class="card-title">cabecera</h5>
+				<p>soy el tio mas soso del mundo</p>
+				<a href="#" class="btn btn-primary">pulsame </a>
+			</div>
+			<div>
+			</div>
+			
+		</div>
+	</div>
+  </body>
+</html>

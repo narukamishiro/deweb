@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plantilla básica de Bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<style type="text/css">
+		.azul{
+			background-color:#00577d;
+		}
+		.rojo{
+			background-color:#FF3F33;
+		}
+		.amarillo{
+			background-color:#e2d77f;
+		}
+		.morado{
+			background-color:#FF33FC;
+		}
+		.naranja{
+			background-color:#FF9C33;
+		}
+		.container div div {
+			border-style: solid;
+			border-color: black;
+			padding:5px;
+		}
+		@media (max-width: 575.99px){
+			 #head div{
+				text-align: center;
+				background-color:#FF9C33;
+			 }
+			 #c1{
+				background-color:red;
+				text-align:left;
+			 }
+			 #c2{
+				background-color:#00577d;
+				text-align:center;
+			}
+			 #c3{
+				background-color:red;
+				text-align:right;
+			 }
+			 #ft1{
+				text-align:center;
+			 }
+			 #ft2{
+				text-align:center;
+			 }
+		}
+		@media (min-width: 576px) and (max-width: 767.99px) {
+			
+			#head div{
+				text-align: center;
+				background-color:#FF9C33;
+			 }
+			 #c1{
+				background-color:red;
+				text-align:left;
+			 }
+			  #c2{
+				background-color:red;
+				text-align:right;
+			}
+			 #c3{
+				background-color:#FF33FC;
+				text-align:center;
+			 }
+			 #ft1{
+				text-align:center;
+			 }
+			 #ft2{
+				text-align:center;
+			 }
+		}
+		@media (min-width: 768px){ 
+			#head div{
+				text-align: left;
+				background-color:blue;
+			 }
+			 #c1{
+				background-color:red;
+				text-align:center;
+			 }
+			 #c2{
+				background-color:red;
+				text-align:center;
+			 }
+			 #c3{
+				background-color:red;
+				text-align:center;
+			 }
+			 #ft1{
+				text-align:right;
+			 }
+			 #ft2{
+				text-align:left;
+			 }
+		}
+	</style>
+  </head>
+  <body>
+    <div class="container">
+				<div class="container-fluid">
+					<div class="row" id="head">
+						<div class="col-12">header</div>
+					</div>
+					<div class="row" id="cuerpo">
+						<div class="col-12 col-sm-6 col-md-4" id="c1">1</div>
+						<div class="col-12 col-sm-6 col-md-4" id="c2" >2</div>
+						<div class="col-12 col-sm-12 col-md-4" id="c3">3</div>
+					</div>
+					<div class="row" id="footer">
+						<div class="col-12 col-md-6 amarillo" id="ft1">footer</div>
+						<div class="col-12 col-md-6 amarillo" id="ft2">footer 2</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>
